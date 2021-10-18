@@ -123,7 +123,6 @@ def send_email(file_path: str, title: str, to: str):
 
 if __name__ == "__main__":
     args = parser.parse_args()
-    print(args)
 
     current_date = int(datetime.now().timestamp())
 
