@@ -16,10 +16,6 @@ import shutil
 
 load_dotenv()
 
-# TODO argparse
-# TODO mail
-# TODO mkdir tmp folder
-
 _base_dir = os.path.abspath(os.getcwd()) + os.sep
 _search_url = "https://api.semanticscholar.org/graph/v1/paper/search?query=" # api_url
 _page_len = 10
