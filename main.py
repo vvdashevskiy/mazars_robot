@@ -17,7 +17,7 @@ import shutil
 load_dotenv()
 
 _base_dir = os.path.abspath(os.getcwd()) + os.sep
-_search_url = "https://api.semanticscholar.org/graph/v1/paper/search?query=" # api_url
+_search_url = "https://api.semanticscholar.org/graph/v1/paper/search?query="
 _page_len = 10
 _base_search_fields = ["title", "authors", "url", "abstract", "citationCount", "fieldsOfStudy", "isOpenAccess"]
 _csv_header = ["title", "authors", "abstract", "citations", "source", "pdf"]
