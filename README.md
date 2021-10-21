@@ -21,6 +21,6 @@ The robot is used to automate the process of https://semanticscholar.org literat
 
 1. Clone git repository to your computer
 2. Install packages from ```requirements.txt```
-3. Make setup correcting ```.emv``` file
+3. Make setup correcting ```.env``` file
 4. Run ```python main.py --topic="yourtopic" --pages=yourpagescount --pdf --email=targetemail``` for homework assesment
 5. Run ```python main.py --help``` for more info (optional)
